@@ -6,3 +6,5 @@ DATABASE_URL = "mysql+mysqlconnector://root:Icfai%40123@localhost:3306/collectio
 engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+print("Hello")
